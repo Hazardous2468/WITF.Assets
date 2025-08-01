@@ -66,6 +66,7 @@
       <menu-option-box id="menuBarItemThemeDark" text="Dark" group="menubarItemThemeGroup" />
 	  <menu-option-box id="menuBarItemThemeLightQuant" text="Light Quant" group="menubarItemThemeGroup" />
 	  <menu-option-box id="menuBarItemThemeDarkQuant" text="Dark Quant" group="menubarItemThemeGroup" />
+	  <menu-option-box id="menuBarItemThemeHazard" text="Hazard" group="menubarItemThemeGroup" />
     </menu>
     <menu-separator />
     <menu-item id="menubarItemDifficultyUp" text="Increase Difficulty" tooltip="Manage Difficulties with the Difficulty Toolbox" shortcutText="Ctrl+Left" />

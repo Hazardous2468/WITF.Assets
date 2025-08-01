@@ -9,6 +9,10 @@ uniform float _hue;
 uniform float _sat;
 uniform float _val;
 
+uniform float _hue2;
+uniform float _sat2;
+uniform float _val2;
+
 uniform float _stealthGlow;
 uniform float _stealthR;
 uniform float _stealthG;
@@ -80,9 +84,9 @@ void main() {
 
 	vec4 swagColor = vec4(rgb2hsv(vec3(color[0], color[1], color[2])), color[3]);
 	//swagColor.x *= _hue;
-	swagColor.x += _hue; //CHANGED HUE TO BE ADDITIVE
-	swagColor.y *= _sat;
-	swagColor.z *= _val;
+	swagColor.x += _hue + _hue2;
+	swagColor.y *= _sat * _sat2;
+	swagColor.z *= _val * _val2;
 	// approximate "lightness" changing!!
 	//swagColor.z *= (_hue * 0.5) + 0.5; //AND REMOVED THIS SILLY NONSENSE
 	color = vec4(hsv2rgb(vec3(swagColor[0], swagColor[1], swagColor[2])), swagColor[3]);
