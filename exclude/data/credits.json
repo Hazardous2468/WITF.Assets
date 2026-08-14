@@ -1,12 +1,14 @@
 {
   "entries": [
-	{
+
+    {
       "header": "What In the Funkin'?!",
       "body": [
-		{ "line": "A Friday Night Funkin' fork" },
+        { "line": "A Friday Night Funkin' fork" },
         { "line": "Created by Hazard24" }
       ]
     },
+    
     {
       "header": "Friday Night Funkin'",
       "body": [
