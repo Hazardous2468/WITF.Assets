@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE assets UPDATED - quant.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="red hold end copy0000" x="4" y="4" width="50" height="64"/>
+	<SubTexture name="red hold piece copy0000" x="4" y="72" width="50" height="44"/>
+</TextureAtlas>
